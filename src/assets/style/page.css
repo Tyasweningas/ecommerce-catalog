@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url(root.css);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.display {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card {
+  margin: 0 auto;
+  background-color: var(--white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  max-width: 70rem;
+  max-height: 42rem;
+  min-width: 70rem;
+  min-height: 37rem;
+}
+
+.bg-brightBlue {
+    background: linear-gradient(to bottom, var(--brightBlue) 50%, var(--white) 50%);
+  }
+  
+  .bg-palePurple {
+    background: linear-gradient(to bottom, var(--palePurple) 50%, var(--white) 30%);
+  }
+
+
+.product-available {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card-product-stuff{
+  margin: 0 20px;
+}
+
+.product-photos {
+  width: 320px;
+  height: 383px;
+}
+
+.card-product-description {
+  margin: 0 20px;
+  height: 80vh;
+}
+
+.product-name {
+  color: var(--darkBlue);
+  font-size: 28px;
+}
+
+.product-explanation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.rating {
+  float: right;
+  display: flex;
+}
+
+.rating_product {
+  margin-right: 5px;
+}
+
+.rating-circle {
+  display: flex;
+}
+
+.description {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.circle {
+  padding: 10px 10px;
+  border-radius: 50%;
+  background-color: var(--darkBlue);
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.price {
+  color: var(--darkBlue);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.button {
+  width: 350px;
+  height: 42px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px 5px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.242);
+}
+
+.down {
+  position: absolute;
+  bottom: 0;
+}
+
+.button-outline {
+  background-color: #ffffff;
+  border: 3px solid var(--darkBlue);
+}
+
+.bg-darkBlue {
+    background-color: var(--darkBlue);
+  }
+
+.bg-darkPurple {
+    background-color: var(--darkPurple);
+  }
+
+.card-unavailable {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../sad-face.png);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-gray {
+    background: linear-gradient(to bottom, var(--gray) 50%, var(--white) 30%);
+  }
+  
+  .no {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .button-unavailable {
+    width: 400px;
+    height: 40px;
+    background: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3f3f3f;
+    cursor: pointer;
+  }
+
+.font-white {
+    color: var(--white);
+  }
+  
+.font-darkPurple {
+    color: var(--darkPurple);
+  }
+  
+.color-darkBlue {
+  color: var(--darkBlue);
+}
+
+.color-darkPurple {
+  color: var(--darkPurple);
+}
+
+
+.display-none {
+  display: none;
+}
